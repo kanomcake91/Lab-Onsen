@@ -21,6 +21,12 @@
     height: 550px;
 }
 
+.img-detail {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+}
+
 .img-search {
     width: 100px;
     height: auto;
