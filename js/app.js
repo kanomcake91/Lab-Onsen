@@ -3,9 +3,8 @@ $(function() {
     document.addEventListener('init', function(event) {
         var page = event.target;
 
-
+        console.log(page.id);
         if (page.id === 'Home') {
-
             $('#back').hide();
             page.querySelector('#spiderman').onclick = function() {
                 document.querySelector('#myNavigator').pushPage('views/detail.html');
