@@ -56,3 +56,9 @@
 .left {
     text-align: center;
 }
+
+.toolbar__left,
+.toolbar__right,
+.tabbar {
+    background-color: #000000;
+}
