@@ -20,11 +20,21 @@ $(function() {
             $('#back').show();
             document.querySelector('ons-back-button').onclick = function(event) {
                 document.querySelector('#myNavigator').popPage();
+                document.querySelector('#myNavigatorSrc').popPage();
             };
+        } else if (page.id === 'search') {
+            page.querySelector('#spidermanSrc').onclick = function() {
+                document.querySelector('#myNavigatorSrc').pushPage('views/detail.html');
 
+
+            };
+            page.querySelector('#infinitywarSrc').onclick = function() {
+                document.querySelector('#myNavigatorSrc').pushPage('views/detail2.html');
+            };
+            page.querySelector('#endgameSrc').onclick = function() {
+                document.querySelector('#myNavigatorSrc').pushPage('views/detail3.html');
+            };
         }
-
-
 
     });
 })

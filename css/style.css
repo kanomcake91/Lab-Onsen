@@ -8,8 +8,18 @@
 
 .title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     color: #0076ff;
+}
+
+.title-src {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.detail {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .bg-title {
@@ -22,9 +32,10 @@
 }
 
 .img-detail {
-    width: 70%;
-    height: auto;
-    padding: 10px;
+    width: 300px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-search {
@@ -38,6 +49,16 @@
 
 .mt-5 {
     margin-top: 10px;
+}
+
+.icon-play {
+    color: white;
+    font-size: 48px;
+    padding-top: 200px;
+}
+
+.mt-10 {
+    margin-top: 20px;
 }
 
 .pd {
@@ -57,8 +78,45 @@
     text-align: center;
 }
 
+.bg-img-iw {
+    background-image: url("/image/infinitywar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-eg {
+    background-image: url("/image/endgame.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-img-spm {
+    background-image: url("/image/spiderman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-size {
+    width: 250px;
+    height: 100%;
+}
+
 .toolbar__left,
 .toolbar__right,
 .tabbar {
     background-color: #000000;
+}
+
+.toolbar__left {
+    text-align: left;
+    line-height: 44px;
+}
+
+ons-input,
+ons-radio,
+ons-checkbox,
+ons-search-input {
+    display: inline-block;
+    position: relative;
+    width: 80%;
 }
